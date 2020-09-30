@@ -16,8 +16,8 @@
 
 
 
-A:
-B:
+A:N
+B:I
 C:
 D:
 E:
@@ -26,14 +26,14 @@ G:
 H:
 I:
 J:
-K:
-L:
+K:T
+L:E
 M:
 N:
 O:
 P:
 Q:
-R:
+R:H
 S:
 T:
 U:
