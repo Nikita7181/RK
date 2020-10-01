@@ -122,6 +122,10 @@ cin >> a1 ;
     cin >> g1 ;
     cout << "H"<< endl;
     cin >> h1 ;
+    cout << "I"<< endl;
+    cin >> i2 ;
+    cout << "J"<< endl;
+    cin >> j1 ;
     cout << "K"<< endl;
     cin >> k1 ;
     cout << "L"<< endl;
@@ -154,63 +158,35 @@ cin >> a1 ;
     cin >> y1 ;
     cout << "Z"<< endl;
     cin >> z1 ;
-    for (int i : text) {
-        if (i == 'A')
-            text2.push_back(a1);
-        if (i == 'B')
-            text2.push_back(b1);
-        if (i == 'C')
-            text2.push_back(c1);
-        if (i == 'D')
-            text2.push_back(d1);
-        if (i == 'E')
-            text2.push_back(e1);
-        if (i == 'F')
-            text2.push_back(f1);
-        if (i == 'G')
-            text2.push_back(g1);
-        if (i == 'H')
-            text2.push_back(h1);
-        if (i == 'I')
-            text2.push_back(i2);
-        if (i == 'J')
-            text2.push_back(j1);
-        if (i == 'K')
-            text2.push_back(k1);
-        if (i == 'L')
-            text2.push_back(l1);
-        if (i == 'M')
-            text2.push_back(m1);
-        if (i == 'N')
-            text2.push_back(n1);
-        if (i == 'O')
-            text2.push_back(o1);
-        if (i == 'P')
-            text2.push_back(p1);
-        if (i == 'Q')
-            text2.push_back(q1);
-        if (i == 'R')
-            text2.push_back(r1);
-        if (i == 'S')
-            text2.push_back(s1);
-        if (i == 'T')
-            text2.push_back(t1);
-        if (i == 'U')
-            text2.push_back(u1);
-        if (i == 'V')
-            text2.push_back(v1);
-        if (i == 'W')
-            text2.push_back(w1);
-        if (i == 'X')
-            text2.push_back(x1);
-        if (i == 'Y')
-            text2.push_back(y1);
-        if (i == 'Z')
-            text2.push_back(z1);
-        else text2.push_back(i);
-        }
-    cout << "text 2" << endl;
-    cout << text2;
+    for(char i : text) {
+        if (i == 'A') cout << a1;
+        else if (i == 'B') cout << b1;
+        else if (i == 'C') cout << c1;
+        else if (i == 'D') cout << d1;
+        else if (i == 'E') cout << e1;
+        else if (i == 'F') cout << f1;
+        else if (i == 'G') cout << g1;
+        else if (i == 'H') cout << h1;
+        else if (i == 'I') cout << i1;
+        else if (i == 'J') cout << j1;
+        else if (i == 'K') cout << k1;
+        else if (i == 'L') cout << l1;
+        else if (i == 'M') cout << m1;
+        else if (i == 'N') cout << n1;
+        else if (i == 'O') cout << o1;
+        else if (i == 'P') cout << p1;
+        else if (i == 'Q') cout << q1;
+        else if (i == 'R') cout << r1;
+        else if (i == 'S') cout << s1;
+        else if (i == 'T') cout << t1;
+        else if (i == 'U') cout << u1;
+        else if (i == 'V') cout << v1;
+        else if (i == 'W') cout << w1;
+        else if (i == 'X') cout << x1;
+        else if (i == 'Y') cout << y1;
+        else if (i == 'Z') cout << z1;
+        else cout << i;
+    }
     return 0;
 
 }
